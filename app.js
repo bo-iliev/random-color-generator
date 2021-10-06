@@ -6,8 +6,7 @@ button.addEventListener('click', function () {
   let newColor = color();
   document.body.style.backgroundColor = newColor;
   h1.innerText = newColor;
-  h2.style.color = newColor;
-  h2.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
+  h2.style.textShadow = '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white';
 });
 
 function color() {
